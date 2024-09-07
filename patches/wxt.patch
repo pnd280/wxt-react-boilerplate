@@ -1,0 +1,13 @@
+diff --git a/dist/core/utils/building/resolve-config.mjs b/dist/core/utils/building/resolve-config.mjs
+index 5214a6ba031e00e95f4c28d796012f6a36503d31..3f8e2198697ee5422a781c5efec728b6e08c30be 100644
+--- a/dist/core/utils/building/resolve-config.mjs
++++ b/dist/core/utils/building/resolve-config.mjs
+@@ -243,7 +243,7 @@ async function getUnimportOptions(wxtDir, srcDir, logger, extensionApi, config)
+       { package: "wxt/storage" }
+     ],
+     warn: logger.warn,
+-    dirs: ["components", "composables", "hooks", "utils"],
++    dirs: [],
+     dirsScanOptions: {
+       cwd: srcDir
+     },

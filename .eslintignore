@@ -1,0 +1,3 @@
+*.barrel.ts
+wxt.config.ts
+docs/*
